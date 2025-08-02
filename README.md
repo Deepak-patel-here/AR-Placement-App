@@ -1,52 +1,63 @@
-📱 AR Alphabet Placement App
-This is an Android AR application built with Jetpack Compose and SceneView, using Google ARCore and Filament to place interactive 3D models based on alphabet selection.
+# 📱 AR Alphabet Placement App
 
-✨ Features
-🔤 Tap an alphabet and place its corresponding 3D object (e.g., "A" → apple)
+An interactive Android AR application that allows users to tap on alphabets and place corresponding 3D models (like "A" for Apple) in their real-world environment using their camera.
 
-📦 .glb model support for realistic rendering
+Built using **Jetpack Compose**, **ARCore**, and **SceneView** with high-quality `.glb` models.
 
-🛋️ Plane detection & object anchoring using ARCore
+---
 
-🎮 Touch interaction and model scaling (optional)
+## ✨ Features
 
-💡 HDR environmental lighting with real-world depth
+- 🔤 Tap on any alphabet (A–Z) to view and place its 3D object
+- 📦 High-quality `.glb` 3D model rendering
+- 🛋️ Real-world plane detection using ARCore
+- 💡 Lighting & shadows via Filament
+- 🎮 Touch interaction support for object placement
 
-🧰 Tech Stack
-Layer	Tech
-UI	Jetpack Compose
-AR Engine	ARCore + SceneView + Filament
-Model Format	.glb (GL Transmission Format)
-Navigation	Jetpack Compose Navigation
-Rendering	SceneView AR (ARSceneView)
+---
 
-📂 Assets Structure
-css
-Copy
-Edit
+## 🧰 Tech Stack
+
+| Layer         | Technology                       |
+|---------------|----------------------------------|
+| UI            | Jetpack Compose                  |
+| AR Engine     | ARCore + SceneView + Filament    |
+| Model Format  | `.glb` (Binary glTF)             |
+| Navigation    | Jetpack Compose Navigation       |
+| Rendering     | SceneView AR (`ARSceneView`)     |
+
+---
+
+## 📂 Assets Directory Structure
+
 app/
 └── src/
-    └── main/
-        └── assets/
-            └── models/
-                ├── apple.glb
-                ├── ball.glb
-                ├── dog.glb
-                ├── ... (A–Z)
-📦 How to Install & Run
-Clone the project
+└── main/
+└── assets/
+└── models/
+├── apple.glb
+├── ball.glb
+├── dog.glb
+└── ... (A–Z)
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/ar-alphabet-app.git
-cd ar-alphabet-app
-Open in Android Studio (Giraffe or higher)
-Make sure jitpack.io is added to your settings.gradle.kts
 
-Build the project
-Gradle should auto-download dependencies from JitPack and Google
+---
 
-Run on a physical ARCore-supported device
+## 📦 How to Build & Run
 
-Emulator is not supported for AR apps
+1. **Clone the project**
+   ```bash
+   git clone [https://github.com/yourusername/ar-alphabet-app.git](https://github.com/Deepak-patel-here/AR-Placement-App)
+   cd ar-alphabet-app
+
+### ✅ To use this:
+
+1. Copy the entire code above.
+2. Paste it into a new file in your project root: `README.md`.
+3. Replace placeholders like:
+   - `[https://your-public-apk-lin](https://github.com/Deepak-patel-here/AR-Placement-App)k`
+   - Your GitHub or LinkedIn links
+
+---
+
+Let me know if you'd like this saved into a file or zipped with your APK/assets!
