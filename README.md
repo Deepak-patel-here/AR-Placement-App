@@ -41,22 +41,3 @@ app/
 └── ... (A–Z)
 
 
----
-
-## 📦 How to Build & Run
-
-1. **Clone the project**
-   ```bash
-   git clone https://github.com/Deepak-patel-here/AR-Placement-App.git
-
-### ✅ To use this:
-
-1. Copy the entire code above.
-2. Paste it into a new file in your project root: `README.md`.
-3. Replace placeholders like:
-   - `https://github.com/Deepak-patel-here/AR-Placement-App.git`
-   - Your GitHub or LinkedIn links
-
----
-
-Let me know if you'd like this saved into a file or zipped with your APK/assets!
